@@ -1,0 +1,6 @@
+<h1><%= @task.title %>
+<p><%= @task.details %> </p>
+<p><%= link_to list, list_path %></p>
+<p> <%= @task.completed %> </p>
+<p><%= link_to Edit, edit_task_path(@task) %></p>
+
